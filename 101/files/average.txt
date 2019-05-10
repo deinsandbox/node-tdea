@@ -1,0 +1,2 @@
+Student : Camilo
+average : 4
