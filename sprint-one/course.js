@@ -7,7 +7,12 @@ const choices = () => courses.map((course) => course.id);
 
 const find = (id) => {
   const detail = courses.find((course) => course.id === id);
-  return detail || {};
+  return detail;
+};
+
+const filter = (id) => {
+  const detail = courses.filter((course) => course.id === id);
+  return detail;
 };
 
 const wait = (item, index) => {
@@ -36,5 +41,6 @@ const list = (time) => {
 module.exports = {
   choices,
   find,
+  filter,
   list,
 };
