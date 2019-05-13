@@ -23,6 +23,8 @@ Todos los comandos que se explican a continuación **se deben ejecutar en el dir
 
 ### Entrega 1
 
+La primera entrega se desarrollo dentro de la carpeta `sprint-one`
+
 #### Cursos
 
 Para observar los cursos disponibles, puede usar alguno de los siguientes comandos.
