@@ -19,7 +19,7 @@ npm i
 
 ## Commandos
 
-Todos los comandos que se explican a continuación **se deben ejecutar en el directorio raiz del proyecto**.
+Todos los comandos que se explican a continuación **se deben ejecutar en el directorio raíz del proyecto**.
 
 ### Entrega 1
 
@@ -98,5 +98,4 @@ Precio    : 0 U$
 ### Author
 
 **Camilo Martinez** sígueme en:
-
 [[Twitter](https://twitter.com/equiman)] - [[dev.to](https://dev.to/equiman)] - [[GitHub](https://github.com/equiman)]
