@@ -6,8 +6,8 @@ let delayInSeconds;
 const choices = () => courses.map((course) => course.id);
 
 const find = (id) => {
-  const detail = courses.filter((course) => course.id === id);
-  return (detail && detail[0]) || {};
+  const detail = courses.find((course) => course.id === id);
+  return detail || {};
 };
 
 const wait = (item, index) => {
