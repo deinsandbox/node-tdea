@@ -3,7 +3,7 @@ const { stripIndents } = require('common-tags');
 const header = () => {
   const print = stripIndents`
       ┌─────────┬───────────────┬───────────┬─────────┐
-      │   ID    │     TITLE     │  LENGTH   │  PRICE  │
+      │   ID    │    TITULO     │ DURACIÓN  │ PRECIO  │
       ├─────────┼───────────────┼───────────┼─────────┤
     `;
   console.log(print);
@@ -11,7 +11,7 @@ const header = () => {
 
 const detail = ({ id, title, length, price }) => {
   const print = stripIndents`
-      │ ${id.padEnd(7)} │ ${title.padEnd(13)} │ ${(length + ' weeks').padStart(9)} │ ${(price + ' U$').padStart(7)} │
+      │ ${id.padEnd(7)} │ ${title.padEnd(13)} │ ${(length + ' dias').padStart(9)} │ ${(price + ' U$').padStart(7)} │
     `;
   console.log(print);
 };

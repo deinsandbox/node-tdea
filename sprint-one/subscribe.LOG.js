@@ -3,18 +3,18 @@ const fs = require('fs');
 
 const makeFile = ({ student, takes }) => {
   const print = stripIndents`
-        Document  : ${student.document}
-        Name      : ${student.name}
-        Course    : ${takes.id}
-        Title     : ${takes.title}
-        Length    : ${takes.length} weeks
-        Price     : ${takes.price} U$
+        Documento : ${student.document}
+        Nombre    : ${student.name}
+        Curso     : ${takes.id}
+        Titulo    : ${takes.title}
+        Duración  : ${takes.length} dias
+        Precio    : ${takes.price} U$
     `;
   fs.writeFile('sprint-one/files/enrollment.txt', print, (err) => {
     if (err) {
       throw error;
     }
-    console.log(`Student "${student.name}" was successful enrolled to "${takes.title}" course`);
+    console.log(`El estudiante "${student.name}" ha sido matriculados en el curso "${takes.title}"`);
   });
 };
 

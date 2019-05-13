@@ -1,6 +1,6 @@
-Document  : 1
-Name      : aaa
-Course    : node
-Title     : Node JS
-Length    : 3 weeks
-Price     : 0 U$
+Documento : 12345
+Nombre    : Camilo Martinez
+Curso     : node
+Titulo    : Node JS
+Duración  : 3 dias
+Precio    : 0 U$
