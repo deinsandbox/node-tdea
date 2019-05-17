@@ -3,16 +3,19 @@
 ## Descarga
 
 Para descargar el proyecto abra una consola y en la ruta deseada ejecute el siguiente comando para clonar el proyecto.
+
 ```bash
 git clone https://github.com/equiman/node-tda ./TdeA/node
 ```
 
 Entrar al directorio raíz del proyecto
+
 ```bash
 cd TdeA/node/
 ```
 
 Instalar los paquetes NPM del proyecto
+
 ```bash
 npm i
 ```
@@ -79,11 +82,13 @@ Para verificar el proceso de inscripción exitoso se muestra en la consola un me
 > El estudiante "Camilo Martinez" ha sido matriculados en el curso "Node JS"
 
 Adicionalmente se puede verificar la inscripción en el siguiente archivo.
+
 ```text
 ./sprint-one/files/enrollment.txt
 ```
 
 Donde queda almacenada la información en el siguiente formato:
+
 ```text
 Documento : 12345
 Nombre    : Camilo Martinez
