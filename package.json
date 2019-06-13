@@ -9,10 +9,12 @@
   "author": "Camilo Martinez (equiman)",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^1.19.0"
+    "nodemon": "^1.19.1"
   },
   "dependencies": {
     "common-tags": "^1.8.0",
-    "yargs": "^13.2.2"
+    "eslint": "^5.16.0",
+    "express": "^4.17.1",
+    "yargs": "^13.2.4"
   }
 }
