@@ -10,8 +10,8 @@ const makeFile = ({ student, takes }) => {
         Duración  : ${takes.length} dias
         Precio    : ${takes.price} U$
     `;
-  fs.writeFile('sprint-one/files/enrollment.txt', print, (err) => {
-    if (err) {
+  fs.writeFile('sprint-one/files/enrollment.txt', print, (error) => {
+    if (error) {
       throw error;
     }
     console.log(`El estudiante "${student.name}" ha sido matriculados en el curso "${takes.title}"`);

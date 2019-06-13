@@ -1,0 +1,12 @@
+{
+    "Camilo": {
+        "math": 3,
+        "english": 2,
+        "development": 5
+    },
+    "Alejandra": {
+        "math": 3,
+        "english": 2,
+        "development": 4
+    }
+}

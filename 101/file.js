@@ -26,8 +26,8 @@ const makeFile = () => {
         Student : ${name}
         average : ${shortResult}
     `;
-  fs.writeFile('101/files/average.txt', print, (err) => {
-    if (err) {
+  fs.writeFile('101/files/average.txt', print, (error) => {
+    if (error) {
       throw error;
     }
     console.log('File was created');

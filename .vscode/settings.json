@@ -3,6 +3,9 @@
         "indent_size": 2,
         "end_with_newline": true,
         "indent_char": " ",
+        "css": {
+            "indent_size": 2
+        },
         "html": {
             "wrap_attributes": "auto"
         }
@@ -22,14 +25,21 @@
         "markdown": "html",
         "typescript": "html"
     },
+    "cSpell.language": "en,es",
+    "cSpell.userWords": [],
+    "editor.autoIndent": true,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": true,
+    "editor.letterSpacing": 1,
     "editor.tabSize": 2,
+    "editor.renderWhitespace": "boundary",
+    "editor.wordWrap": "off",
     "eslint.enable": true,
     "eslint.options": {
         "env": {
             "browser": true,
             "commonjs": true,
-            "es6": true,
-            "jquery": true
+            "es6": true
         },
         "extends": ["eslint:recommended"],
         "parserOptions": {
@@ -44,28 +54,46 @@
                 }
             ],
             "indent": [
-                "error", 2,
-                { "SwitchCase": 1 }
+                "error",
+                2, {
+                    "SwitchCase": 0
+                }
             ],
-            "no-console": "off"
+            "no-console": "off",
+            "no-case-declarations": "error",
+            "quotes": [
+                2,
+                "single", {
+                    "avoidEscape": false,
+                    "allowTemplateLiterals": true
+                }
+            ]
         }
     },
     "files.exclude": {
         "**/*.js.map": {
             "when": "$(basename)"
-        }
+        },
+        "**/node_modules": true
     },
+    "git.autofetch": true,
     "javascript.suggest.autoImports": true,
+    "javascript.validate.enable": false,
+    "javascript.format.enable": false,
     "prettier.arrowParens": "always",
     "prettier.eslintIntegration": true,
-    "prettier.printWidth": 140,
+    "prettier.printWidth": 120,
     "prettier.semi": true,
     "prettier.singleQuote": true,
-    "prettier.trailingComma": "all",
+    "prettier.trailingComma": "es5",
     "prettier.tabWidth": 2,
     "prettier.useTabs": false,
     "stylelint.enable": true,
     "css.validate": false,
     "less.validate": false,
     "scss.validate": false,
+    "todo-tree.tags": [
+        "TODO",
+        "FIXME"
+    ],
 }
