@@ -98,6 +98,50 @@ Duración  : 3 dias
 Precio    : 0 U$
 ```
 
+### Entrega 2
+
+La segunda entrega se desarrollo dentro de la carpeta `sprint-two`
+
+#### Cursos
+
+Para observar los cursos disponibles, puede usar alguno de los siguientes comandos.
+
+```bash
+node sprint-two/index
+node sprint-two/index courses
+```
+
+Abra el navegador y cargue la pagina [http://localhost:3000](http://localhost:3000).
+
+#### Inscripciones
+
+Para inscribir un estudiante a alguno de los cursos, puede usar el comando `subscribe`
+
+```bash
+node sprint-two/index subscribe --id=texto --document=numero --name=texto
+node sprint-two/index subscribe -i=texto -d=numero -n=texto
+```
+
+Parámetros:
+
+Todos los parámetros son obligatorios.
+
+```bash
+ID del Curso : --id, -i
+Documento del Estudiante : --document, -d
+Nombre del Estudiante : --name, -n
+```
+
+Por ejemplo:
+
+```bash
+node sprint-two/index subscribe -i=node -d=12345 -n='Camilo Martinez'
+```
+
+Inscripción:
+
+Para verificar el proceso de inscripción exitoso abra el navegador y cargue la pagina Abra el navegador y cargue la pagina [http://localhost:3000](http://localhost:3000).
+
 ## Acerca
 
 ### Author
